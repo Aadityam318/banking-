@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Bank Helplines & Guidelines</title>
+    <div class="container">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .bank-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .bank-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 23%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .bank-card img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .bank-card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .bank-card p {
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        <div class="container">
+
+          
+    </style>
+
+    <script>
+        // Function to filter banks based on search input
+        function filterBanks() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const banks = document.getElementsByClassName('bank-card');
+            Array.from(banks).forEach(bank => {
+                const bankName = bank.getElementsByTagName('h3')[0].textContent.toLowerCase();
+                bank.style.display = bankName.includes(query) ? 'block' : 'none';
+            });
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Indian Bank Helplines & Guidelines</h1>
+</header>
+<div class="container">
+
+    <!-- 🔷 RBI Guidelines Section -->
+    <section class="rbi-guidelines">
+        <h2>📢 RBI Helpline Guidelines</h2>
+        <ul>
+            <li>Always contact your bank directly through the official helpline numbers.</li>
+            <li>In case of unresolved issues, escalate your complaint via the RBI’s Complaint Management System: <a href="https://cms.rbi.org.in" target="_blank">cms.rbi.org.in</a></li>
+            <li>RBI does not call customers for any banking or transaction-related issues.</li>
+            <li>Use official communication channels and apps like <strong>RBI Kehta Hai</strong> to stay updated.</li>
+            <section class="rbi-guidelines">
+                <ul>
+                    <li>📞 For complaints or help, contact the RBI toll-free helpline: <strong>14440</strong></li>
+                    <li>🧾 If your issue is unresolved by your bank, escalate it via the official RBI Complaint Management System: <a href="https://cms.rbi.org.in" target="_blank">cms.rbi.org.in</a></li>
+                    <li>🔐 RBI will never call, text, or email you asking for banking details like PIN, OTP, or passwords.</li>
+                    <li>📲 Use RBI’s official channels like the <strong>RBI Kehta Hai</strong> awareness program for verified updates.</li>
+                
+            
+        </ul>
+    </section>
+
+<div class="container">
+    <input type="text" id="search" class="search-box" onkeyup="filterBanks()" placeholder="Search for a bank...">
+
+    <div class="bank-list">
+        <!-- Bank 1 -->
+        <div class="bank-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/State_Bank_of_India_logo.svg" alt="SBI Logo">
+            <h3>State Bank of India (SBI)</h3>
+            <p><strong>UPI Helpline:</strong> 1800-1201-740</p>
+            <p><strong>ATM Helpline:</strong> 1800-11-2211</p>
+        </div>
+
+        <!-- Bank 2 -->
+        <div class="bank-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/HDFC_Bank_logo.svg" alt="HDFC Logo">
+            <h3>HDFC Bank</h3>
+            <p><strong>UPI Helpline:</strong> 1800-1201-740</p>
+            <p><strong>ATM Helpline:</strong> 1800-1600</p>
+        </div>
+
+        <!-- Bank 3 -->
+        <div class="bank-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/ICICI_Bank_logo.svg" alt="ICICI Logo">
+            <h3>ICICI Bank</h3>
+            <p><strong>UPI Helpline:</strong> 1800-1201-740</p>
+            <p><strong>ATM Helpline:</strong> 1800-1080</p>
+        </div>
+
+        <!-- Bank 4 -->
+        <div class="bank-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Axis_Bank_logo.svg" alt="Axis Logo">
+            <h3>Axis Bank</h3>
+            <p><strong>UPI Helpline:</strong> 1800-1201-740</p>
+            <p><strong>ATM Helpline:</strong> 1860-419-5555</p>
+        </div>
+
+        <!-- Bank 5 -->
+        <div class="bank-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kotak_Mahindra_Bank_logo.svg" alt="Kotak Logo">
+            <h3>Kotak Mahindra Bank</h3>
+            <p><strong>UPI Helpline:</strong> 1800-1201-740</p>
+            <p><strong>ATM Helpline:</strong> 1860-266-2666</p>
+        </div>
+
+        <!-- Bank 6 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Bank_of_Baroda_logo.svg" alt="Bank of Baroda Logo">
+    <h3>Bank of Baroda</h3>
+    <p><strong>UPI Helpline:</strong> 1800-258-4455</p>
+    <p><strong>ATM Helpline:</strong> 1800-102-4455</p>
+</div>
+
+<!-- Bank 7 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/Punjab_National_Bank_Logo.svg" alt="PNB Logo">
+    <h3>Punjab National Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-180-2222</p>
+    <p><strong>ATM Helpline:</strong> 1800-103-2222</p>
+</div>
+
+<!-- Bank 8 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Canara_Bank_logo.svg" alt="Canara Bank Logo">
+    <h3>Canara Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-425-0018</p>
+    <p><strong>ATM Helpline:</strong> 1800-425-0018</p>
+</div>
+
+<!-- Bank 9 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Indian_Bank_logo.svg" alt="Indian Bank Logo">
+    <h3>Indian Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-425-00000</p>
+    <p><strong>ATM Helpline:</strong> 1800-425-4422</p>
+</div>
+
+<!-- Bank 10 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Union_Bank_of_India_Logo.svg" alt="Union Bank Logo">
+    <h3>Union Bank of India</h3>
+    <p><strong>UPI Helpline:</strong> 1800-22-2244</p>
+    <p><strong>ATM Helpline:</strong> 1800-208-2244</p>
+</div>
+
+<!-- Bank 11 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/IDFC_FIRST_Bank_Logo.svg" alt="IDFC First Logo">
+    <h3>IDFC First Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-419-4332</p>
+    <p><strong>ATM Helpline:</strong> 1800-419-4332</p>
+</div>
+
+<!-- Bank 12 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/YES_Bank_Logo.svg" alt="YES Bank Logo">
+    <h3>YES Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-1200</p>
+    <p><strong>ATM Helpline:</strong> 1800-1200</p>
+</div>
+
+<!-- Bank 13 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/IndusInd_Bank_Logo.svg" alt="IndusInd Logo">
+    <h3>IndusInd Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1860-500-5004</p>
+    <p><strong>ATM Helpline:</strong> 1860-267-7777</p>
+</div>
+
+<!-- Bank 14 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Federal_Bank_Logo.svg" alt="Federal Bank Logo">
+    <h3>Federal Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-425-1199</p>
+    <p><strong>ATM Helpline:</strong> 1800-420-1199</p>
+</div>
+
+<!-- Bank 15 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/South_Indian_Bank_logo.svg" alt="South Indian Bank Logo">
+    <h3>South Indian Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-425-1809</p>
+    <p><strong>ATM Helpline:</strong> 1800-102-9408</p>
+</div>
+
+<!-- Bank 16 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Bank_of_India_logo.svg" alt="Bank of India Logo">
+    <h3>Bank of India</h3>
+    <p><strong>UPI Helpline:</strong> 1800-220-229</p>
+    <p><strong>ATM Helpline:</strong> 1800-103-1906</p>
+</div>
+
+<!-- Bank 17 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/63/Central_Bank_of_India_logo.svg" alt="Central Bank Logo">
+    <h3>Central Bank of India</h3>
+    <p><strong>UPI Helpline:</strong> 1800-222-368</p>
+    <p><strong>ATM Helpline:</strong> 1800-222-368</p>
+</div>
+
+<!-- Bank 18 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Karur_Vysya_Bank_logo.svg" alt="KVB Logo">
+    <h3>Karur Vysya Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1860-200-1916</p>
+    <p><strong>ATM Helpline:</strong> 1860-200-1916</p>
+</div>
+
+<!-- Bank 19 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/City_Union_Bank_Logo.svg" alt="City Union Bank Logo">
+    <h3>City Union Bank</h3>
+    <p><strong>UPI Helpline:</strong> 044-71225000</p>
+    <p><strong>ATM Helpline:</strong> 1800-425-1515</p>
+</div>
+
+<!-- Bank 20 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/RBL_Bank_logo.svg" alt="RBL Logo">
+    <h3>RBL Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-419-0610</p>
+    <p><strong>ATM Helpline:</strong> 022-6115-6300</p>
+</div>
+
+<!-- Bank 21 -->
+<div class="bank-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/47/DCB_Bank_Logo.svg" alt="DCB Logo">
+    <h3>DCB Bank</h3>
+    <p><strong>UPI Helpline:</strong> 1800-209-5363</p>
+    <p><strong>ATM Helpline:</strong> 1800-209-5363</p>
+</div>
+
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Indian Bank Helplines. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
